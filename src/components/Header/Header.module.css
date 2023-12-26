@@ -1,0 +1,125 @@
+.slide {
+  transform: scale(0.7);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.slideWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.prevArrow {
+  position: absolute;
+  top: 40%;
+  left: 60px;
+  z-index: 100;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.nextArrow {
+  position: absolute;
+  top: 40%;
+  right: 60px;
+  z-index: 100;
+  cursor: pointer;
+  font-size: 2rem;
+}
+/* CSS for the footer component */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-size: 1.2rem;
+}
+
+.footer-social {
+  margin-right: 20px;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.footer-contact {
+  margin-right: 20px;
+}
+
+.footer-bottom-section {
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+hr {
+  border: 0.5px solid #fff;
+  margin: 10px 0;
+}
+
+
+/* About */
+
+.aboutSection {
+  padding: 10px 0;
+  /* background-color: #f9f9f9; */
+}
+
+.container3 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.aboutContent {
+  display: flex;
+  align-items: flex-start;
+}
+
+.aboutImage {
+  width: 40%;
+  /* text-align: center; */
+}
+
+.aboutImage img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.aboutInfo {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.text{
+  margin-top: 10%;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 70px;
+  margin-right: 35%;
+}
+
+p {
+  margin-bottom: 15px;
+}

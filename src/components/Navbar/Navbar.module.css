@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background: rgba(69, 70, 65, 0.8);
+  backdrop-filter: blur(3px);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.banner {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: auto 3rem;
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+span {
+  color: rgb(0, 208, 255);
+}
+
+.nav-links {
+  margin: auto 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto 1.2rem;
+  position: relative;
+  /* justify-content: space-between; */
+}
+
+nav ul li div {
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: pointer;
+  /* justify-content: space-between; */
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: pointer;
+  /* justify-content: space-between; */
+}
+
+
+.sign-up {
+  margin-right: 1rem;
+  margin-left: 2rem;
+  border: 2px solid #fff;
+  padding: 5px 25px;
+  border-radius: 25px;
+  text-transform: capitalize;
+  transition: 0.6s ease;
+}
+
+ul li div::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  background-color: #fff;
+  transition: 0.6s ease-out;
+}
+
+ul li div:hover::after {
+  width: 100%;
+}
+
+.sign-up:hover {
+  background-color: #239ce2;
+}
+
+.sign-up:hover::after {
+  width: 0%;
+}

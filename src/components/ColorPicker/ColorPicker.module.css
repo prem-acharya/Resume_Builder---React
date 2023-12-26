@@ -1,0 +1,40 @@
+/* ColorPicker.module.css */
+
+.colorPickerContainer {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border: 1px solid #d1d1d1;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.colorPickerInput {
+  width: 36px;
+  height: 36px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+  transition: transform 0.2s;
+  margin-right: 8px;
+  padding: 2px 4px;
+}
+
+.colorPickerInput:hover {
+  transform: scale(1.1);
+}
+
+.colorPickerValue {
+  flex: 1; /* Expand to fill available space */
+  font-size: 14px;
+  border: none;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: transparent;
+  outline: none;
+  color: #333; /* Text color */
+}
+
+.colorPickerValue:focus {
+  border: 1px solid #00d0ff; /* Highlight color, change as needed */
+}

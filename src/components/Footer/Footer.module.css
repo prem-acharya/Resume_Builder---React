@@ -1,0 +1,153 @@
+.siteFooter {
+  background-color: #676164;
+  /* padding: 90px 0 20px; */
+  font-size: 15px;
+  line-height: 25px;
+  color: #dcdcdc;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.flex-item {
+  flex: 0 1 auto;
+  /* Setting initial flex-grow, flex-shrink, flex-basis */
+}
+
+.item1 {
+  flex-basis: 50%; /* 40% width */
+}
+
+.item2,
+.item3 {
+  flex-basis: 20%; /* 20% width */
+}
+
+.sitefooter hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.sitefooter hr.small
+{
+  margin:20px 0
+}
+.sitefooter h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.sitefooter a
+{
+  color:#737373;
+}
+.sitefooter a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footerlinks
+{
+  padding-left:0;
+  list-style:none
+}
+.footerlinks li
+{
+  display:block
+}
+.footerlinks a
+{
+  text-decoration: none;
+  color:#dcdcdc
+}
+.footerlinks a:active,.footerlinks a:focus,.footerlinks a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footerlinks.inline li
+{
+  display:inline-block
+}
+.sitefooter .socialicons
+{
+  text-align:right
+}
+.sitefooter .socialicons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyrighttext
+{
+  margin:0
+}
+
+.socialicons{
+display: flex;
+justify-content: center;
+}
+
+@media (max-width:991px)
+{
+  .sitefooter [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .sitefooter
+  {
+    padding-bottom:0
+  }
+  .sitefooter .copyrighttext,.sitefooter .socialicons
+  {
+    text-align:center
+  }
+}
+.socialicons
+{
+  padding-left:0;
+  margin-top: 6px;
+  margin-bottom:10px;
+  list-style:none
+}
+.socialicons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.socialicons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.socialicons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:56px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}

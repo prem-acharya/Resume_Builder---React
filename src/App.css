@@ -1,0 +1,19 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.center {
+  text-align: center;
+  height: 100vh;
+  padding-top: 5rem;
+  background: linear-gradient(#373736, #ffffff);
+}
+
+/* .container {
+  padding: 5rem 0;
+} */

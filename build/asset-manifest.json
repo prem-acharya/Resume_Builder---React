@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ddbdf012.css",
+    "main.js": "/static/js/main.770f8c06.js",
+    "static/media/resume1.png": "/static/media/resume1.5d015a5a57132af21a35.png",
+    "static/media/resume2.png": "/static/media/resume2.fdf7ade2b901f257940a.png",
+    "static/media/resume3.png": "/static/media/resume3.74343d9dfc950615740f.png",
+    "static/media/curriculum-vitae.png": "/static/media/curriculum-vitae.217187ab3869437ffa2e.png",
+    "static/media/resume.png": "/static/media/resume.38eb2327cec21e5c4959.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.ddbdf012.css.map": "/static/css/main.ddbdf012.css.map",
+    "main.770f8c06.js.map": "/static/js/main.770f8c06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddbdf012.css",
+    "static/js/main.770f8c06.js"
+  ]
+}

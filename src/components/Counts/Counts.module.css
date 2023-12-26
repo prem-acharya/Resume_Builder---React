@@ -1,0 +1,42 @@
+/* Counts.module.css */
+.counterBox {
+    display: flex;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+    background-color: #f0f0f0; /* Background color for the boxes */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  }
+  
+  .counterBox:nth-child(1) {
+    background-color: #ffffff; /* Different background color for the second box */
+  }
+  
+
+  .counterBox:nth-child(2) {
+    background-color: #e6f9ff; /* Different background color for the second box */
+  }
+  
+  .counterBox h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .downloadButton {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .downloadButton:hover {
+    background-color: #0056b3;
+  }
+  
