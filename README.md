@@ -1,3 +1,3 @@
 # Resume Builder
 
-Live Project Link: https://resume-builder-e50cb.web.app/
+Check out the live demo [here](<https://resume-builder-e50cb.web.app/>).
