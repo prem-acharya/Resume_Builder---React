@@ -2,6 +2,8 @@
 
 Check out the live demo [here](<https://resume-builder-e50cb.web.app/>).
 
+![Screenshot 2024-12-13 192750](https://github.com/user-attachments/assets/1179ef09-15c6-4f80-9f90-775cf7be6691)
+
 
 ## Overview
 The Resume Builder is a web application built using React.js, designed to simplify the process of creating and customizing resumes online.
